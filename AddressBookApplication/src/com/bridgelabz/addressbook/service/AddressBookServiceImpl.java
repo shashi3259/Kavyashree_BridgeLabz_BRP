@@ -1,9 +1,8 @@
 package com.bridgelabz.addressbook.service;
 
 import com.bridgelabz.addressbook.repository.AddressBookRepository;
-import com.bridgelabz.addressbook.repository.AddressBookRepositoryImpl;
 
-public class AddressBookServiceImpl implements AddressBookService {
+public class AddressBookService {
 
 	AddressBookRepository repository = new AddressBookRepositoryImpl();
 
